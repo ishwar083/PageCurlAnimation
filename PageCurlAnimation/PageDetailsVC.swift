@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PageDetailsVC.swift
 //  PageCurlAnimation
 //
 //  Created by mac-00014 on 10/02/20.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PageDetailsVC: UIViewController {
 
+    @IBOutlet weak var txtView : UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-
 }
-
