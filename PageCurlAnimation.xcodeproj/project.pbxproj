@@ -16,6 +16,7 @@
 		5EDE466323F16CF500C15B26 /* PageCurlAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE466223F16CF500C15B26 /* PageCurlAnimationUITests.swift */; };
 		5EDE467123F16D8700C15B26 /* PageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE467023F16D8700C15B26 /* PageViewVC.swift */; };
 		5EDE467323F172C800C15B26 /* PageDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDE467223F172C800C15B26 /* PageDetailsVC.swift */; };
+		5EDE467523F179FD00C15B26 /* pageCurlAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5EDE467423F179FD00C15B26 /* pageCurlAnimation.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5EDE466423F16CF500C15B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EDE467023F16D8700C15B26 /* PageViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewVC.swift; sourceTree = "<group>"; };
 		5EDE467223F172C800C15B26 /* PageDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDetailsVC.swift; sourceTree = "<group>"; };
+		5EDE467423F179FD00C15B26 /* pageCurlAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pageCurlAnimation.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				5EDE464923F16CF500C15B26 /* Assets.xcassets */,
 				5EDE464B23F16CF500C15B26 /* LaunchScreen.storyboard */,
 				5EDE464E23F16CF500C15B26 /* Info.plist */,
+				5EDE467623F17A0B00C15B26 /* Resources */,
 			);
 			path = PageCurlAnimation;
 			sourceTree = "<group>";
@@ -129,6 +132,14 @@
 				5EDE466423F16CF500C15B26 /* Info.plist */,
 			);
 			path = PageCurlAnimationUITests;
+			sourceTree = "<group>";
+		};
+		5EDE467623F17A0B00C15B26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EDE467423F179FD00C15B26 /* pageCurlAnimation.gif */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDE467523F179FD00C15B26 /* pageCurlAnimation.gif in Resources */,
 				5EDE464D23F16CF500C15B26 /* LaunchScreen.storyboard in Resources */,
 				5EDE464A23F16CF500C15B26 /* Assets.xcassets in Resources */,
 				5EDE464823F16CF000C15B26 /* Main.storyboard in Resources */,
